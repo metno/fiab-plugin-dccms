@@ -38,7 +38,7 @@ template = BlueprintTemplate(
             factory_id=BlockFactoryId("anemoiSource"),
             instance=BlockInstance(
                 configuration_values={
-                    ConfigurationOptionId("checkpoint"): "dccms:placeholder-checkpoint",
+                    ConfigurationOptionId("checkpoint"): "BRIS-Malawi-2025.10",
                     ConfigurationOptionId("input_source"): "${initialConditions}",
                     ConfigurationOptionId("lead_time"): "72",
                     ConfigurationOptionId("base_time"): YESTERDAY_MIDNIGHT,
