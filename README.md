@@ -26,3 +26,15 @@ as `fiab-plugin-ecmwf`'s `aifs_forecast` template. Since it reuses ECMWF's
 actual Anemoi/GRIB blocks, this template will produce real output once its
 `checkpoint` configuration value is replaced with a real, registered checkpoint
 artifact id.
+
+
+## Local testing
+
+Install plugin from filesystem.
+
+Add the following to your .fiab/config.toml:
+```
+[external.plugin_stores.myPlugin]
+url = "file:///<rootPath>/fiab-plugin-dccms"
+method = "localSingle"
+```

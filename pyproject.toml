@@ -18,8 +18,7 @@ dynamic = [ "version" ]
 
 dependencies = [
     "fiab-core>=5,<6",
-    "fiab-plugin-ecmwf>=5,<6",
-    "earthkit-workflows>=0.15.6",
+    "fiab-plugin-ecmwf>=5,<6"
 ]
 
 [dependency-groups]
